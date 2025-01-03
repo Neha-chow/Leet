@@ -8,11 +8,10 @@ class Solution {
         long csum =0;
         for(int i=0;i<nums.length-1;i++){
             csum += nums[i];
-            
             long k = sum - csum; 
-            if(csum > k)
-            //System.out.println(k+" "+csum);
+            if(csum >= k){
             count ++;
+            }
         }
         return count;
     }
