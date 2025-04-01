@@ -20,8 +20,6 @@ class Solution {
                 l2.add(num);
             }
         }
-        System.out.println(hs1);
-        System.out.println(hs2);
         List<List<Integer>>list = new ArrayList<>();
         list.add(l2);
         list.add(l1);
