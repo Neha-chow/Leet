@@ -5,11 +5,9 @@ class Solution {
         int l[] = new int[n];
         for(int i=0;i<n;i++){
             l[i] = (int)Math.log10(nums[i])+1;
-           // System.out.print(l[i]+" ");
+            if(l[i]%2==0) count++; 
         }
-        for(int i=0;i<n;i++){
-            if(l[i]%2==0) count++;
-        }
+        
         return count;
     }
 }
