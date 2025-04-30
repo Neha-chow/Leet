@@ -1,13 +1,13 @@
 class Solution {
     public int findNumbers(int[] nums) {
-        int n = nums.length;
-        int count=0;
-        int l[] = new int[n];
-        for(int i=0;i<n;i++){
-            l[i] = (int)Math.log10(nums[i])+1;
-            if((l[i]&1)==0) count++; 
+        int count = 0;
+        for (int x : nums) {
+            int digits = 0;
+            for (; x > 0; x /= 10)
+                digits++;
+            if ((digits & 1) == 0)
+                count++;
         }
-        
         return count;
     }
 }
