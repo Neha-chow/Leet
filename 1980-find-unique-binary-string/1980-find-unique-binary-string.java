@@ -8,7 +8,7 @@ class Solution {
          else sb.append('0');
          i++;
         }
-        String ans = sb.toString();
-        return ans;
-    }
+         
+        return sb.toString();
+        }
 }
