@@ -22,6 +22,6 @@ class Solution {
                 pq.add(r);
             }
         }
-        return pq.size==0?0:pq.peek();
+        return pq.size()==0?0:pq.peek();
     }
 }
