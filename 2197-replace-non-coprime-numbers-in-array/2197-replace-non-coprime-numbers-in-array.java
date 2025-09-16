@@ -9,7 +9,8 @@ class Solution {
                     break;
                 }
                 st.remove(st.size()-1);
-                n=(top/g)*n;
+                n = (top/g)*n;
+
             }
             st.add(n);
         }
