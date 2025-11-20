@@ -1,25 +1,20 @@
 class Solution {
-    public int rob(int[] nums) {  
+    public int rob(int[] nums) {
+        int sum =0;
         int n = nums.length;
-        int dp[]= new int[n];
-       dp[0]= nums[0];
-       for(int i=1;i<n;i++){
-        int p=nums[i],np=dp[i-1];
-        if(i-2>=0){
-            p += dp[i-2];
-        }
-        dp[i] =  Math.max(p,np);
-       }
-        return dp[n-1];
+       int dp[]= new int[n];
+       Arrays.fill(dp,-1);
+        return helper(nums,0,dp,n);
     }
-    // public int helper(int nums[],int index,int[] dp,int n){
-    //     int pick = (nums[index]);
-    //     if(index+2<n)
-    //      pick += helper(nums,index+2,dp,n);
-    //      int notpick = 0;
-    //      if(index+1<n)
-    //      notpick += helper(nums,index+1,dp,n);
-          
-    //     return dp[index]=Math.max(pick,notpick);
-    // }
+    public int helper(int nums[],int index,int[] dp,int n){
+        if(dp[index]!=-1) return dp[index];
+        int pick = (nums[index]);
+        if(index+2<n)
+         pick += helper(nums,index+2,dp,n);
+         int notpick = 0;
+         if(index+1<n)
+         notpick += helper(nums,index+1,dp,n);
+         int sum = Math.max(pick,notpick);
+        return dp[index]=sum;
+    }
 }
