@@ -4,17 +4,22 @@ class Solution {
         int c=1;
         for(int i=digits.length-1;i>=0;i--){
                 int p = digits[i]+c;
-                ls.add(p%10);
+                digits[i] = p%10;
                 c = (p>=10?1:0);
-                
+                if(c==0) return digits;
         }
-        if(c>0)
-        ls.add(c);
-       Collections.reverse(ls);
-        int ans[] = new int[ls.size()];
-        for(int i=0;i<ls.size();i++){
-            ans[i] = ls.get(i);
+        int ans[] = new int[digits.length+1];
+        if(c>0){
+           for(int i=0;i<ans.length;i++) {
+            if(i==0){
+                ans[0] = c;
+            }
+            else{
+                ans[i] = digits[i-1];
+            }
+           }
         }
+        
         return ans;
     }
 }
