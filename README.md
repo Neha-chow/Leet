@@ -19,20 +19,24 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0402-remove-k-digits](https://github.com/Neha-chow/Leet/tree/main/0402-remove-k-digits/) | Medium |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Neha-chow/Leet/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0402-remove-k-digits](https://github.com/Neha-chow/Leet/tree/main/0402-remove-k-digits/) | Medium |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Neha-chow/Leet/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1673-find-the-most-competitive-subsequence](https://github.com/Neha-chow/Leet/tree/main/1673-find-the-most-competitive-subsequence/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0402-remove-k-digits](https://github.com/Neha-chow/Leet/tree/main/0402-remove-k-digits/) | Medium |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Neha-chow/Leet/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1673-find-the-most-competitive-subsequence](https://github.com/Neha-chow/Leet/tree/main/1673-find-the-most-competitive-subsequence/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0402-remove-k-digits](https://github.com/Neha-chow/Leet/tree/main/0402-remove-k-digits/) | Medium |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Neha-chow/Leet/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1673-find-the-most-competitive-subsequence](https://github.com/Neha-chow/Leet/tree/main/1673-find-the-most-competitive-subsequence/) | Medium |
 <!---LeetCode Topics End-->
